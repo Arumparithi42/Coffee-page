@@ -7,9 +7,10 @@
         <meta name = "author" content = "Arumparithi B">
         <meta name="description" content = "Reg no. : 2024503542 | CT Dept">
         <meta name = "keywords" content = "Coffee,Sun Coffee">
+        <link rel="stylesheet" href="SunCoffee.css">
     </head>
     <body>
-        <header>
+        <header id = "home">
             <h1>Sun Coffee</h1>
             <p>Established 2025 | Dindigul, TamilNadu</p>
             <p>South India's Most Loved Coffee Destination</p>
@@ -18,20 +19,17 @@
                 <cite>- Jackie Chan</cite>
             </blockquote>
         </header>
+        <nav>
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#menu">Menu</a></li>
+                <li> <a href="#brew">How to Brew</a></li>
+                <li> <a href="#fe">Featured Coffee</a></li>
+                <li> <a href="#res">Reserve</a></li>
+                <li> <a href="#about">About Us</a></li>
+            </ul>
+        </nav>
         <main>
-            <section id = "home">
-                <nav>
-                    <ul>
-                        <li> <a href="#home">Home</a></li>
-                        <li> <a href="#menu">Menu</a></li>
-                        <li> <a href="#brew">How to Brew</a></li>
-                        <li> <a href="#fe">Featured Coffee</a></li>
-                        <li> <a href="#res">Reserve</a></li>
-                        <li> <a href="#about">About Us</a></li>
-                    </ul>
-                </nav>
-            </section>
-            <hr>
             <section id = "menu">
                 <h2>MENU</h2>
                 <h3>Premium Coffee Varieties</h3>
@@ -55,7 +53,7 @@
                     <li> Koli Soda <i>(Special)</i></li>
                 </ul>
                 <h3>Special Offer</h3>
-                <p><mark>Chocolate Coffee : <del>₹100</del>  ₹80</mark></p>
+                <p id = "offer"><mark>Chocolate Coffee : <del>₹100</del>  ₹80</mark></p>
                 <p>To view price <a href="price.html">click here</a></p>
             </section>
             <hr>
@@ -75,9 +73,15 @@
             <section id = "fe">
                 <h2>Features </h2>
                 <h3>Traditional Filter Coffee</h3>
-                <figure>
-                    <img src = "coffee.jfif" width = "300px" alt = "Filter Coffee Image"> 
-                    <figcaption><strong>Iconic Filter Coffee : </strong>Our Speacial Filter Coffee</figcaption>
+                <figure id = "fig">
+                    <ol>
+                        <li><img src = "coffee.jfif" width = "300px" alt = "Filter Coffee Image"> 
+                        <figcaption><strong>Iconic Filter Coffee : </strong>Our Speacial Filter Coffee</figcaption></li>
+                        <li><img src = "coffee2.webp" width = "300px" alt = "Chocolate Image"> 
+                        <figcaption><strong>Chocolate Coffee : </strong>Our Speacial Chocolate Coffee</figcaption></li>
+                        <li><img src = "coffee3.webp" width = "300px" alt = "Art Coffee Image"> 
+                        <figcaption><strong>Iconic Art Coffee : </strong>Our Speacial Art Coffee</figcaption></li>
+                    </ol>
                 </figure>
                 <h3>Watch Our Shop</h3>
                 <figure>
